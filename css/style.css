@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 .header-container{
     max-width: 1200px;
     margin: 0 auto;
@@ -29,7 +32,7 @@
     color: black;
 }
 .secondlist{
-    padding-left: 200px;
+    padding-left: 150px;
 }
 .header-button{
     margin-left: 50px;
