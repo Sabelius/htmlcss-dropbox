@@ -6,7 +6,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-.header-container{
+#header-container{
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -14,7 +14,7 @@ body{
     height: 50px;
     margin-top: 10px;
 }
-.top-bar-logo{
+#header-container .top-bar-logo{
     vertical-align: middle;
 }
 .header-list{
@@ -83,9 +83,9 @@ body{
     height: 400px;
     float: right;
 }
-.main-container{
+#main-container{
     padding: 200px;
-    height: 1000px;
+    height: 1400px;
 }
 .firstsection-title{
     font-size: 30px;
@@ -173,6 +173,15 @@ body{
 .bigbox-subtitle{
     margin-top: 10px;
 }
+.partner-image{
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+.partnertitle{
+    margin-left: 20px;
+}
+
 
 
 
