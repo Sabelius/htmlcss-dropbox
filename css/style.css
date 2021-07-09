@@ -7,12 +7,12 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 .header-container{
-    max-width: 1200px;
     margin: 0 auto;
-    margin-top: 10px;
+    max-width: 1200px;
 }
 #top-bar{
     height: 50px;
+    margin-top: 10px;
 }
 .top-bar-logo{
     vertical-align: bottom;
@@ -34,10 +34,33 @@ body{
 .secondlist{
     padding-left: 150px;
 }
-.header-button{
-    margin-left: 50px;
+.button{
     padding: 5px 10px;
     background-color: rgb(48, 126, 228);
     color: white;
     border: none;
+}
+.header-button{
+    margin-left: 50px;
+}
+.header-jumbotron{
+    background-color: lightblue;
+    height: 600px;
+}
+.jumbo-container{
+    padding: 80px;
+}
+.jumbotron-title{
+    font-size: 60px;
+}
+.jumbotron-paragraph{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.jumbotron-button{
+    margin-top: 20px;
+}
+.jumbotron-disclaimer{
+    font-size: 10px;
+    margin-top: 5px;
 }
