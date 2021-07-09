@@ -85,7 +85,7 @@ body{
 }
 #main-container{
     padding: 200px;
-    height: 1400px;
+    height: 2000px;
 }
 .firstsection-title{
     font-size: 30px;
@@ -151,7 +151,7 @@ body{
 }
 .secondcolumn,
 .thirdcolumn{
-    margin-left: 25px;
+    margin-left: 97px;
 }
 .second-main-container{
     height:200px;
@@ -173,14 +173,31 @@ body{
 .bigbox-subtitle{
     margin-top: 10px;
 }
-.partner-image{
-    width: 400px;
-    height: 300px;
+.partner-box{
+    margin-top: 100px;
+}
+.partnerimgcontainer{
     float: left;
 }
-.partnertitle{
-    margin-left: 20px;
+.partner-image{
+    width: 500px;
+    height: 400px;
 }
+.partner-box-text{
+    width: 350px;
+    height: 400px;
+    margin-top: 30px;
+    float: right;
+}
+.partnerdescription{
+    font-size: 12px;
+    margin-top: 20px;
+}
+.partner-button{
+    margin-top: 30px;
+    padding: 10px;
+}
+
 
 
 
