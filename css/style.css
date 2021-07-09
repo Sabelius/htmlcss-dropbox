@@ -7,7 +7,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 #header-container,
-.secondmain-container{
+.footer-container{
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -86,7 +86,7 @@ body{
 }
 #main-container{
     padding: 200px;
-    height: 8000px;
+    height: 4000px;
 }
 .firstsection-title{
     font-size: 30px;
@@ -127,7 +127,10 @@ body{
 .bigbox-description,
 .business-col-description,
 .clientsearch,
-.morten-speech{
+.morten-speech,
+.footer-li,
+.fa-globe-americas,
+.partnerdescription{
     font-size: 12px;
 }
 .user1{
@@ -137,7 +140,9 @@ body{
 .pencil1,
 .column-link,
 .column-list,
-.bigbox-description{
+.bigbox-description,
+.business-col-description,
+.partnerdescription{
     margin-top: 20px;
 }
 .column-button{
@@ -195,10 +200,6 @@ body{
     margin-top: 30px;
     float: right;
 }
-.partnerdescription{
-    font-size: 12px;
-    margin-top: 20px;
-}
 .partner-button{
     margin-top: 30px;
     padding: 10px;
@@ -215,9 +216,6 @@ body{
 .business-image{
     width: 250px;
     height: 250px;
-}
-.business-col-description{
-    margin-top: 20px;
 }
 .underlinetext{
     border-bottom: 1px solid black;
@@ -300,6 +298,36 @@ body{
 .fa-angle-down{
     margin-left: 250px;
 }
+.footer-container{
+    background-color: black;
+    margin-top: 200px;
+}
+.footer-list{
+    display: inline-block;
+    list-style-type: none;
+    padding: 50px;
+}
+.footer-li-title{
+    color: white;
+}
+.footer-li{
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.lastul{
+    vertical-align: top;
+}
+.lasthr{
+    color: white;
+    margin-right: 1000px;
+    margin-left: 50px;
+}
+.fa-globe-americas{
+    color: white;
+    padding: 50px;
+}
+
 
 
 
