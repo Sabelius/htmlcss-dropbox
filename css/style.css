@@ -47,7 +47,7 @@ body{
     background-color: lightblue;
     height: 650px;
 }
-.jumbo-container{
+.jumbo-partcontainer{
     padding: 80px;
 }
 .jumbotron-title{
@@ -83,3 +83,73 @@ body{
     height: 400px;
     float: right;
 }
+.main-container{
+    padding: 200px;
+    height: 1000px;
+}
+.firstsection-title{
+    font-size: 30px;
+}
+.circled-buttons{
+    padding-top:30px;
+}
+.secondcircledbutton{
+    margin-left: 20px;
+}
+.column{
+    max-width:250px;
+    height: 750px;
+    border: 1px solid lightgray;
+    margin-top: 30px;
+    float: left;
+}
+.column-single{
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+}
+.column-body{
+    padding:20px;
+}
+.column-price{
+    margin-top: 10px;
+}
+.column-choice,
+.columndirect-link,
+.columncheck{
+    color: rgb(48, 126, 228);
+}
+.columnfa,
+.column-choice,
+.column-link,
+.column-list{
+    font-size: 12px;
+}
+.user1{
+    margin-top: 50px;
+}
+.folder1,
+.pencil1,
+.column-link,
+.column-list{
+    margin-top: 20px;
+}
+.column-button{
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.columnlist-title{
+    margin-top: 50px;
+}
+.column-list{
+    list-style-type: none;
+}
+.column-list-item{
+    margin-top: 10px;
+}
+.secondcolumn,
+.thirdcolumn{
+    margin-left: 20px;
+}
+
+
