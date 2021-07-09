@@ -85,7 +85,7 @@ body{
 }
 #main-container{
     padding: 200px;
-    height: 3000px;
+    height: 8000px;
 }
 .firstsection-title{
     font-size: 30px;
@@ -115,7 +115,8 @@ body{
 }
 .column-choice,
 .columndirect-link,
-.columncheck{
+.columncheck,
+.clientsearchlink{
     color: rgb(48, 126, 228);
 }
 .columnfa,
@@ -123,7 +124,9 @@ body{
 .column-link,
 .column-list,
 .bigbox-description,
-.business-col-description{
+.business-col-description,
+.clientsearch,
+.morten-speech{
     font-size: 12px;
 }
 .user1{
@@ -173,7 +176,7 @@ body{
     display: inline-block;
 }
 .bigbox-button{
-    margin-left: 480px;
+    margin-left: 600px;
 }
 .bigbox-subtitle{
     margin-top: 10px;
@@ -221,7 +224,53 @@ body{
 .underlinetext{
     border-bottom: 1px solid black;
 }
-
+.team-title{
+    margin-top: 200px;
+    font-size: 40px;
+}
+.clientsearch{
+    margin-top: 30px;
+}
+.form{
+    width: 130px;
+    height: 130px;
+    margin-top: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+.bgform{
+    background-color: limegreen;
+    border: 10px solid rgb(133, 214, 133);
+}
+.designimage{
+    width:100px;
+    height:100px;
+    margin: 10px;
+}
+.bgform2{
+    background-color: rgb(189, 19, 42);
+    border:10px solid rgb(189, 19, 42);
+}
+.form2{
+    width: 130px;
+    height: 130px;
+}
+.text-cit{
+    width: 400px;
+    height: 260px;
+    display: inline-block;
+    border: 1px solid black;
+    margin-top: 50px;
+    background-color: lightgrey;
+}
+.bgform3{
+    background-color: orange;
+    border:10px solid orange;
+}
+.bgform4{
+    background-color: lightskyblue;
+    border:10px solid lightskyblue;
+}
 
 
 
