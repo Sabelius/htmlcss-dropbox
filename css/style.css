@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#top-bar{
+    height: 50px;
+}
+.top-bar-logo{
+    vertical-align: bottom;
+}
+.header-list{
+    list-style-type: none;
+    display: inline-block;
+}
+.list{
+    display: inline-block;
+}
+.header-element{
+    margin-left: 30px;
+}
+.header-element-link{
+    text-decoration: none;
+    color: black;
+}
+.secondlist{
+    padding-left: 200px;
+}
+.header-button{
+    margin-left: 50px;
+    padding: 5px 10px;
+    background-color: rgb(48, 126, 228);
+    color: white;
+    border: none;
+}
