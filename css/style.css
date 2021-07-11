@@ -120,6 +120,10 @@ body{
 .clientsearchlink{
     color: rgb(48, 126, 228);
 }
+.col-hr{
+    margin: 45px 130px 0 10px;
+    color: lightgray;
+}
 .columnfa,
 .column-choice,
 .column-link,
@@ -320,8 +324,7 @@ body{
 }
 .lasthr{
     color: white;
-    margin-right: 1000px;
-    margin-left: 50px;
+    margin: 0 1000px 0 50px;
 }
 .fa-globe-americas{
     color: white;
