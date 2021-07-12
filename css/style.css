@@ -264,11 +264,12 @@ svg.arizona{
     transform: scaleX(90%) scaleY(20%);
 }
 svg.topps{
-    background-color: rgb(255, 8, 0);
+    background-color: rgb(24, 228, 218);
+    filter: invert(1);
 }
 .svg-secondcol{
     width: 50%;
-    background-color: rgb(233, 222, 222);
+    background-color: rgb(221, 206, 206);
     display: inline-block;
     vertical-align: top;
 }
