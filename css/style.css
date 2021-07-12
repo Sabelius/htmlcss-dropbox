@@ -7,7 +7,8 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 #header-container,
-.footer-container{
+.footer-container,
+#svgpart-container{
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -86,7 +87,7 @@ body{
 }
 #main-container{
     padding: 200px;
-    height: 4000px;
+    height: 3100px;
 }
 .firstsection-title{
     font-size: 30px;
@@ -117,7 +118,7 @@ body{
 .column-choice,
 .columndirect-link,
 .columncheck,
-.clientsearchlink{
+.link-clients{
     color: rgb(48, 126, 228);
 }
 .col-hr{
@@ -130,10 +131,9 @@ body{
 .column-list,
 .bigbox-description,
 .business-col-description,
-.clientsearch,
-.morten-speech,
 .footer-li,
 .fa-globe-americas,
+.link-clients
 .partnerdescription{
     font-size: 12px;
 }
@@ -228,62 +228,78 @@ body{
     margin-top: 200px;
     font-size: 40px;
 }
-.clientsearch{
-    margin-top: 30px;
+#svgpart-container{
+    font-size: 0;
 }
-.form{
-    width: 130px;
-    height: 130px;
-    margin-top: 50px;
+.svg-firstcol,
+.svg-thirdcol{
+    width: 25%;
+    display: inline-block;
+}
+svg{
+    fill: white;
+    padding: 20px;
+    display: inline-block;
+}
+svg.design{
+    background-color: rgb(101, 187, 101);
+    border: 10px solid rgb(141, 184, 141);
+}
+svg.arizona{
+    background-color: rgb(100, 19, 64);
+}
+svg.florida{
+    background-color: lightskyblue;
+}
+svg.topps{
+    background-color: rgb(255, 8, 0);
+}
+.svg-secondcol{
+    width: 50%;
+    background-color: rgb(233, 222, 222);
     display: inline-block;
     vertical-align: top;
 }
-.bgform{
-    background-color: limegreen;
-    border: 10px solid rgb(133, 214, 133);
+svg.seconddesign{
+    fill: black;
 }
-.designimage{
-    width:100px;
-    height:100px;
-    margin: 10px;
+.svghr{
+    margin: 0 550px 20px 20px;
 }
-.bgform2{
-    background-color: rgb(189, 19, 42);
-    border:10px solid rgb(189, 19, 42);
+.morten-cit{
+    font-size: 12px;
+    margin: 31px;
 }
-.form2{
-    width: 130px;
-    height: 130px;
+svg.bicycle{
+    background-color: rgb(201, 25, 25);
 }
-.text-cit{
-    width: 400px;
-    height: 260px;
-    display: inline-block;
-    border: 1px solid black;
-    margin-top: 50px;
-    background-color: lightgrey;
-}
-.bgform3{
-    background-color: orange;
-    border:10px solid orange;
-}
-.bgform4{
+svg.hearst{
     background-color: lightskyblue;
-    border:10px solid lightskyblue;
 }
-.subcontainer{
+svg.planet{
+    background-color: blue;
+}
+svg.channel{
+    background-color: rgb(233, 233, 22);
+}
+.db-business{
+    background-color: lightblue;
     height: 300px;
-    background-color: rgb(48, 126, 228);
 }
-.subc-title{
-    color: rgb(107, 17, 72);
+.placement-title{
+    color: rgb(128, 0, 60);
+    padding: 100px 150px;
+    font-size: 30px;
     display: inline-block;
-    margin: 100px;
-    font-size: 40px;
 }
-.subc-button{
-    padding: 10px;
+.placement-button{
+    padding: 5px 10px;
+    margin-left: 200px;
     border: none;
+}
+#second-main-container{
+    height:500px;
+    padding:200px;
 }
 .questions{
     padding:50px;
@@ -294,7 +310,7 @@ body{
 }
 .question{
     padding-top:40px;
-    border: 1px solid black;
+    border: 1px solid lightgrey;
     padding-bottom: 20px;
     border-left: none;
     border-right: none;
