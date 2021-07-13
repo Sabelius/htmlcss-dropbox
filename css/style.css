@@ -246,7 +246,7 @@ body{
     float: left;
 }
 .business-image{
-    width: 300px;
+    width: 100%;
 }
 .underlinetext{
     border-bottom: 1px solid black;
@@ -259,22 +259,25 @@ body{
     font-size: 0;
     margin-top: 100px;
 }
+.svg-firstcol{
+    margin-right: -5px;
+}
 .svg-firstcol,
 .svg-thirdcol{
     width: 25%;
-    display: inline-block;
+    float: left;
 }
 img{
     fill: white;
-    padding: 20px;
     display: inline-block;
 }
 .svg-container{
     display: inline-block;
+    width: 50%;
+    height: 150px;
 }
 .svg-container img{
-    height: 150px;
-    width: 150px;
+    width: 50%;
 }
 .design{
     background-color: rgb(151, 16, 151);
@@ -301,7 +304,7 @@ img{
 .svg-secondcol{
     width: 50%;
     background-color: rgb(221, 206, 206);
-    display: inline-block;
+    float: left;
     vertical-align: top;
 }
 svg.seconddesign{
@@ -330,6 +333,8 @@ svg.seconddesign{
 .db-business{
     background-color: lightblue;
     height: 300px;
+    width: 100%;
+    float: left;
 }
 .placement-title{
     color: rgb(128, 0, 60);
