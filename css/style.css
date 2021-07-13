@@ -32,6 +32,33 @@ body{
 .header-element-link{
     text-decoration: none;
     color: black;
+    cursor: pointer;
+}
+.header-element-link:hover{
+    text-decoration: underline;
+}
+.drop-down,
+.drop-question{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid lightgray;
+    width: 120px;
+    z-index: 1;
+    margin-left: 30px;
+}
+.dropdown-content a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.drop-down:hover .dropdown-content,
+.drop-question:hover .drop-question-content{
+    display: block;
 }
 .secondlist{
     padding-left: 150px;
@@ -41,6 +68,12 @@ body{
     background-color: rgb(48, 126, 228);
     color: white;
     border: none;
+    cursor: pointer;
+}
+.button:hover{
+    text-decoration: underline;
+    background-color: blue;
+    transition: 2s;
 }
 .header-button{
     margin-left: 50px;
@@ -210,6 +243,14 @@ body{
 .partner-button{
     margin-top: 30px;
     padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.partner-button:hover,
+.placement-button:hover{
+    text-decoration: underline;
+    background-color: rgb(146, 119, 119);
+    transition: 2s;
 }
 .businesstitle{
     margin-top: 40px;
@@ -309,6 +350,7 @@ svg.channel{
     padding: 5px 10px;
     margin-left: 200px;
     border: none;
+    cursor: pointer;
 }
 #second-main-container{
     height:500px;
@@ -322,13 +364,25 @@ svg.channel{
 }
 .question{
     padding-top:40px;
-    border: 1px solid lightgrey;
-    padding-bottom: 20px;
-    border-left: none;
-    border-right: none;
+}
+.drop-question:hover{
+    content: "";
+    display: block;
+    height:150px;
+    width: 90%;
+}
+.drop-question-content{
+    display: none;
+    position: absolute;
+}
+.drop-question-content p{
+    color: rgb(201, 197, 197);
+    font-size: 12px;
+    margin-top: 20px;
 }
 .fa-angle-down{
     margin-left: 250px;
+    position: absolute;
 }
 #footer-container{
     background-color: black;
