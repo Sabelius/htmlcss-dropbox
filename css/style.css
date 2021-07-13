@@ -14,7 +14,8 @@ body{
 }
 #top-bar{
     height: 50px;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .top-bar-logo{
     vertical-align: middle;
@@ -27,7 +28,7 @@ body{
     display: inline-block;
 }
 .header-element{
-    margin-left: 30px;
+    margin-left: 25px;
 }
 .header-element-link{
     text-decoration: none;
@@ -49,7 +50,7 @@ body{
     border: 1px solid lightgray;
     width: 120px;
     z-index: 1;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 .dropdown-content a{
     color: black;
