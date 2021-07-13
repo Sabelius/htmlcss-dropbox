@@ -16,6 +16,7 @@ body{
 }
 .top-bar-logo{
     vertical-align: middle;
+    display: inline-block;
 }
 .header-list{
     list-style-type: none;
@@ -74,7 +75,7 @@ body{
     transition: 2s;
 }
 .header-button{
-    margin-left: 70px;
+    margin-left: 100px;
 }
 .header-jumbotron{
     background-color: lightblue;
@@ -94,6 +95,7 @@ body{
 .jumbofloat{
     float: left;
     width: 20%;
+    padding-top: 50px;
 }
 .jumbotron-button{
     margin-top: 20px;
@@ -109,6 +111,7 @@ body{
     margin-left: 20px;
     width: calc(60% - 20px);
     float: right;
+    padding-top: 70px;
 }
 .margin-top75{
     margin-top:35px;
@@ -202,27 +205,26 @@ body{
 .bigbox-content{
     padding: 20px;
 }
-.bigbox-title{
-    display: inline-block;
-}
 .bigbox-button{
-    margin-left: 600px;
+    float: right;
+}
+.bigbox-subtitle{
+    margin-top: 10px;
 }
 .partner-box{
     margin-top: 100px;
 }
 .partnerimgcontainer{
-    float: left;
+    float:left;
+    width: 55%;
 }
 .partner-image{
-    width: 500px;
-    height: 400px;
+    width: 100%;
 }
 .partner-box-text{
-    width: 300px;
-    height: 400px;
-    margin-top: 30px;
+    width: 40%;
     float: right;
+    margin-left: 10px;
 }
 .partner-button{
     margin-top: 30px;
@@ -280,6 +282,7 @@ img{
 }
 .design{
     background-color: rgb(151, 16, 151);
+    box-shadow: inset 0 0 0 10px rgb(204, 57, 204);
 }
 .arizona{
     background-color:rgb(143, 248, 239);
