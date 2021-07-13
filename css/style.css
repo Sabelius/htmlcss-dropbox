@@ -169,8 +169,9 @@ body{
 .business-col-description,
 .footer-li,
 .fa-globe-americas,
-.link-clients
-.partnerdescription{
+.link-clients,
+.partnerdescription,
+.drop-question-content p{
     font-size: 12px;
 }
 .user1{
@@ -279,32 +280,63 @@ body{
     width: 25%;
     display: inline-block;
 }
-svg{
+img{
     fill: white;
     padding: 20px;
     display: inline-block;
 }
-svg.design{
-    background-color: rgb(101, 187, 101);
-    border: 10px solid rgb(141, 184, 141);
-}
-svg.arizona{
-    background-color: rgb(100, 19, 64);
-}
-.svg-container{
-    background-color: lightskyblue;
+.svg{
     display: inline-block;
 }
+.svg-container1{
+    background-color: rgb(110, 212, 110);
+    border: 5px solid rgb(106, 199, 106);
+}
+.svg-container2{
+    background-color: rgb(100, 19, 64);
+    vertical-align: top;
+}
+.svg-container3{
+    background-color: lightskyblue;
+}
+.svg-container4{
+    background-color: rgb(24, 228, 218);
+}
+.design,
+.arizona,
 .florida,
-.svg-container{
+.topps,
+.bicycle,
+.hearst,
+.planet,
+.channel,
+.svg-container1,
+.svg-container2,
+.svg-container3,
+.svg-container4,
+.svg-container5,
+.svg-container6,
+.svg-container7,
+.svg-container8{
     height: 150px;
     width: 150px;
+}
+.design{
+    filter: invert(1);
+    transform:scaleX(100%) scaleY(100%);
+}
+.arizona,
+.bicycle,
+.hearst,
+.planet,
+.channel{
+    filter: invert(1);
 }
 .florida{
     filter: invert(1);
     transform: scaleX(90%) scaleY(20%);
 }
-svg.topps{
+.topps{
     background-color: rgb(24, 228, 218);
     filter: invert(1);
 }
@@ -316,6 +348,7 @@ svg.topps{
 }
 svg.seconddesign{
     fill: black;
+    padding: 20px;
 }
 .svghr{
     margin: 0 550px 20px 20px;
@@ -324,17 +357,17 @@ svg.seconddesign{
     font-size: 12px;
     margin: 31px;
 }
-svg.bicycle{
+.svg-container5{
     background-color: rgb(201, 25, 25);
 }
-svg.hearst{
+.svg-container6{
     background-color: rgb(159, 196, 219);
 }
-svg.planet{
+.svg-container7{
     background-color: blue;
 }
-svg.channel{
-    background-color: rgb(233, 233, 22);
+.svg-container8{
+    background-color: yellow;
 }
 .db-business{
     background-color: lightblue;
@@ -377,7 +410,6 @@ svg.channel{
 }
 .drop-question-content p{
     color: rgb(201, 197, 197);
-    font-size: 12px;
     margin-top: 20px;
 }
 .fa-angle-down{
