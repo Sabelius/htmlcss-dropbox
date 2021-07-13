@@ -167,6 +167,7 @@ body{
 .column-list,
 .bigbox-description,
 .business-col-description,
+.morten-cit,
 .footer-li,
 .fa-globe-americas,
 .link-clients,
@@ -285,60 +286,34 @@ img{
     padding: 20px;
     display: inline-block;
 }
-.svg{
+.svg-container{
     display: inline-block;
 }
-.svg-container1{
-    background-color: rgb(110, 212, 110);
-    border: 5px solid rgb(106, 199, 106);
-}
-.svg-container2{
-    background-color: rgb(100, 19, 64);
-    vertical-align: top;
-}
-.svg-container3{
-    background-color: lightskyblue;
-}
-.svg-container4{
-    background-color: rgb(24, 228, 218);
-}
-.design,
-.arizona,
-.florida,
-.topps,
-.bicycle,
-.hearst,
-.planet,
-.channel,
-.svg-container1,
-.svg-container2,
-.svg-container3,
-.svg-container4,
-.svg-container5,
-.svg-container6,
-.svg-container7,
-.svg-container8{
+.svg-container img{
     height: 150px;
     width: 150px;
 }
 .design{
+    background-color: rgb(151, 16, 151);
+    border: 10px solid rgb(143, 68, 143);
     filter: invert(1);
     transform:scaleX(100%) scaleY(100%);
 }
-.arizona,
-.bicycle,
-.hearst,
-.planet,
-.channel{
+.arizona{
+    background-color:rgb(143, 248, 239);
+}
+.invert{
     filter: invert(1);
 }
+.floridasvg{
+    background-color: lightskyblue;
+}
 .florida{
-    filter: invert(1);
     transform: scaleX(90%) scaleY(20%);
+    filter: invert(1);
 }
 .topps{
     background-color: rgb(24, 228, 218);
-    filter: invert(1);
 }
 .svg-secondcol{
     width: 50%;
@@ -348,26 +323,26 @@ img{
 }
 svg.seconddesign{
     fill: black;
-    padding: 20px;
+    padding: 10px;
+    margin-left: 20px;
 }
 .svghr{
     margin: 0 550px 20px 20px;
 }
 .morten-cit{
-    font-size: 12px;
     margin: 31px;
 }
-.svg-container5{
-    background-color: rgb(201, 25, 25);
+.bicycle{
+    background-color:rgb(9, 247, 235);
 }
-.svg-container6{
-    background-color: rgb(159, 196, 219);
+.hearst{
+    background-color: brown;
 }
-.svg-container7{
+.planet{
+    background-color:yellow;
+}
+.channel{
     background-color: blue;
-}
-.svg-container8{
-    background-color: yellow;
 }
 .db-business{
     background-color: lightblue;
